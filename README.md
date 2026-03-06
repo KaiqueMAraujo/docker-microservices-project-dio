@@ -58,3 +58,10 @@ Arquivo de configuração do servidor NGINX que atua como proxy.
 
 README.md
 Documentação do projeto.
+
+## Melhorias Futuras
+
+- Implementar Docker Compose
+- Criar um cluster com Docker Swarm
+- Implementar balanceamento de carga
+- Adicionar monitoramento
