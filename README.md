@@ -65,3 +65,28 @@ Documentação do projeto.
 - Criar um cluster com Docker Swarm
 - Implementar balanceamento de carga
 - Adicionar monitoramento
+
+Seção de comandos Docker:
+
+# build da imagem
+docker build -t docker-microservices .
+
+# rodar container
+docker run -d -p 80:80 docker-microservices
+
+# listar containers
+docker ps
+
+# parar container
+docker stop <container_id>
+
+
+## Aprendizados
+
+Durante este projeto foi possível aprender:
+
+- Criação de imagens com Dockerfile
+- Execução de containers
+- Conceito de microsserviços
+- Uso do NGINX como proxy
+- Integração com banco de dados MySQL
